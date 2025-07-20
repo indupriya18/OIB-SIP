@@ -1,0 +1,100 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fdf6e3;
+  color: #9c8edd;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  color: #2f2f2d;
+  font-size: 3rem;
+  margin-bottom: 0.2em;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 1.5em;
+  color: #5d49b6;
+}
+
+.vangogh-img {
+  width: 500px;
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+section {
+  margin: 40px 0;
+  text-align: left;
+}
+.bio h2{
+    text-align: center;
+    color: #5d49b6;
+}
+
+.bio p {
+  
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+.works h2{
+    text-align: center;
+    color: #5d49b6;
+
+}
+
+.art-gallery {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;     
+  gap: 30px;               
+  margin-top: 20px;
+}
+
+
+.art-piece {
+  width: 300px;
+  text-align: center;
+}
+
+.art-piece img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+.art-piece img:hover {
+  transform: scale(1.05);
+}
+
+.art-piece p {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 1rem;
+  color: #804e4e;
+}
+
+
+
+    
+
+.quote blockquote {
+  font-style: italic;
+  color:#5d49b6;
+  padding-left: 15px;
+  margin: 20px auto;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
